@@ -1,0 +1,173 @@
+
+[
+  {
+    "id": "SOP001",
+    "category": "Cycling - High Wind",
+    "activity": ["cycle", "cycling", "bike", "bicycle", "ride"],
+    "severity": "High",
+    "conditions": {
+      "wind_speed_min": 25
+    },
+    "advice": "Avoid cycling in strong winds. Delay your ride or choose a sheltered route.",
+    "reason": "Wind speed exceeds the safe cycling threshold."
+  },
+  {
+    "id": "SOP002",
+    "category": "Running - High UV",
+    "activity": ["run", "running", "jog", "jogging", "walk"],
+    "severity": "Medium",
+    "conditions": {
+      "uv_index_min": 8
+    },
+    "advice": "Avoid outdoor running during peak UV hours. Prefer early morning or evening.",
+    "reason": "UV index is in the high-risk range."
+  },
+  {
+    "id": "SOP003",
+    "category": "Cycling - Rain Warning",
+    "activity": ["cycle", "cycling", "bike", "bicycle", "ride"],
+    "severity": "Medium",
+    "conditions": {
+      "rain_probability_min": 60
+    },
+    "advice": "Carry rain protection and expect slippery roads due to a high chance of rainfall.",
+    "reason": "Rain probability is above the safe cycling threshold."
+  },
+  {
+    "id": "SOP004",
+    "category": "Hiking - Heavy Rain",
+    "activity": ["hike", "hiking", "trek", "trekking", "mountain"],
+    "severity": "High",
+    "conditions": {
+      "rain_probability_min": 70
+    },
+    "advice": "Avoid hiking today because trails may become slippery and visibility may reduce.",
+    "reason": "Heavy rainfall risk for outdoor trails."
+  },
+  {
+    "id": "SOP005",
+    "category": "Children - Outdoor Play",
+    "activity": [
+      "child",
+      "children",
+      "kid",
+      "kids",
+      "baby",
+      "play",
+      "outside",
+      "park",
+      "playground"
+    ],
+    "severity": "Medium",
+    "conditions": {
+      "rain_probability_min": 60
+    },
+    "advice": "Avoid taking children outdoors today because rain may create slippery and unsafe play conditions.",
+    "reason": "Rain probability is high for children's outdoor activity."
+  },
+  {
+    "id": "SOP006",
+    "category": "Pets - Heat Warning",
+    "activity": ["dog", "pet", "pets", "walk dog", "walk pet"],
+    "severity": "Medium",
+    "conditions": {
+      "temperature_min": 35
+    },
+    "advice": "Avoid walking pets during hot hours. Keep them hydrated and walk in cooler hours.",
+    "reason": "High temperature increases heat stress risk for pets."
+  },
+  {
+    "id": "SOP007",
+    "category": "Elderly - Heat Advisory",
+    "activity": ["elderly", "senior", "grandparent", "old person"],
+    "severity": "Medium",
+    "conditions": {
+      "temperature_min": 34
+    },
+    "advice": "Elderly people should avoid prolonged outdoor exposure and stay hydrated.",
+    "reason": "High temperature increases heat-related health risk."
+  },
+  {
+    "id": "SOP008",
+    "category": "Heat Safety",
+    "activity": [
+      "cycle",
+      "cycling",
+      "bike",
+      "bicycle",
+      "run",
+      "running",
+      "walk",
+      "walking"
+    ],
+    "severity": "Medium",
+    "conditions": {
+      "temperature_min": 35
+    },
+    "advice": "Avoid strenuous outdoor activity during afternoon heat. Prefer morning or evening hours.",
+    "reason": "Temperature exceeds the heat safety threshold."
+  },
+  {
+    "id": "SOP009",
+    "category": "Picnic - Good Weather",
+    "activity": ["picnic", "outing", "park", "garden", "outdoor picnic"],
+    "severity": "Low",
+    "conditions": {
+      "rain_probability_max": 30,
+      "temperature_max": 34
+    },
+    "advice": "Weather looks suitable for a picnic. Carry water and sunscreen if outdoors for a long time.",
+    "reason": "Low rain probability and comfortable temperature."
+  },
+  {
+    "id": "SOP010",
+    "category": "Picnic - Rain Warning",
+    "activity": ["picnic", "outing", "park", "garden", "outdoor picnic"],
+    "severity": "Medium",
+    "conditions": {
+      "rain_probability_min": 60
+    },
+    "advice": "Postpone your picnic because there is a high chance of rainfall.",
+    "reason": "Rain probability is too high for outdoor recreation."
+  },
+  {
+    "id": "SOP011",
+    "category": "Travel - Heavy Rain",
+    "activity": ["travel", "drive", "commute", "trip", "journey"],
+    "severity": "Medium",
+    "conditions": {
+      "rain_probability_min": 70
+    },
+    "advice": "Expect traffic delays and reduced visibility. Carry rain gear while travelling.",
+    "reason": "Heavy rain may affect travel conditions."
+  },
+  {
+    "id": "SOP012",
+    "category": "Severe Weather Alert",
+    "activity": [
+      "cycle",
+      "cycling",
+      "bike",
+      "travel",
+      "run",
+      "walk",
+      "hike"
+    ],
+    "severity": "Critical",
+    "conditions": {
+      "wind_speed_min": 30,
+      "rain_probability_min": 70
+    },
+    "advice": "Avoid all outdoor activities until severe weather conditions improve.",
+    "reason": "Severe weather conditions detected."
+  },
+  {
+    "id": "SOP013",
+    "category": "Cycling - Normal Weather",
+    "activity": ["cycle", "cycling", "bike", "bicycle", "ride"],
+    "severity": "Low",
+    "conditions": {},
+    "advice": "Current weather does not trigger any weather-related safety restrictions for cycling. Ride with standard road safety precautions and continue monitoring changing weather conditions.",
+    "reason": "No high-risk weather threshold was triggered."
+  }
+]
